@@ -7,6 +7,10 @@ public class Main {
 		System.out.println("体重を入力してください//");
 		t = stdin.nextInt();
 		b = t / ( s * s );
-		System.out.println("あなたのBMI値は" + b + "です");
+		i = 0;
+		if( i < 1 ){
+			System.out.println("あなたのBMI値は" + b + "です");
+			i = i + 1;
+		}
 	}
 }
